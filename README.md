@@ -8,7 +8,7 @@ Google Local Scraper - A tool to scrape Google Local search results with a simpl
 
 Get results as structured JSON for applications or Markdown for LLMs and AI agents, without managing HTML parsing or proxies.
 
-This guide uses the `google_local` engine for Google Local results. For searches on Google Maps, see our [Google Maps Scraper](../google-maps-scraper).
+This guide uses the `google_local` engine for Google Local results. For searches on Google Maps, see our [Google Maps Scraper](https://serpapi.com/blog/google-maps-scraper/).
 
 ## How to scrape Google Local?
 
