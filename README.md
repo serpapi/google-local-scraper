@@ -6,7 +6,7 @@
 
 Google Local Scraper - A tool to scrape Google Local search results with a simple API. Get business names, addresses, phone numbers, hours, ratings, review counts, GPS coordinates, and more when available.
 
-We provide the results in a structured JSON format, eliminating the need for parsing, coding, proxies, or any other web scraping headaches for developers.
+Get results as structured JSON for applications or Markdown for LLMs and AI agents, without managing HTML parsing or proxies.
 
 This guide uses the `google_local` engine for Google Local results. For searches on Google Maps, see our [Google Maps Scraper](../google-maps-scraper).
 
@@ -34,6 +34,10 @@ curl --get https://serpapi.com/search \
  --data-urlencode location="Austin, Texas, United States" \
  --data-urlencode api_key="YOUR_SERPAPI_API_KEY"
 ```
+
+### Output formats: JSON and Markdown
+
+JSON is the default output and is useful when you need individual business fields. Add `output=md` to receive Markdown for text-based workflows, LLMs, and AI agents.
 
 ### Python Integration
 
